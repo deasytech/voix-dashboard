@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1723430751654,
+      "tag": "0000_clumsy_anthem",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1723444446835,
+      "tag": "0001_sparkling_king_bedlam",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1723506023981,
+      "tag": "0002_blue_guardsmen",
+      "breakpoints": true
+    }
+  ]
+}
