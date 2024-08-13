@@ -19,7 +19,7 @@ export default function RootLayout({
           {children}
           <Script src="https://voix-widget.vercel.app/widget.umd.js"></Script>
           {/* @ts-ignore */}
-          <my-widget projectId="1"></my-widget>
+          <my-widget project-id="1"></my-widget>
           <PageFooter />
         </body>
       </html>

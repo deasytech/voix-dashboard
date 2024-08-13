@@ -11,7 +11,7 @@ const Page = ({ params }: { params: { projectId: string } }) => {
       <div className="bg-blue-950 text-white p-6 rounded-md relative">
         <CopyButton text={`<my-widget projectId="${params.projectId}"></my-widget><script src="${process.env.WIDGET_URL}/widget.umd.js"></script>`} />
         <code>
-          {`<my-widget projectId="${params.projectId}"></my-widget>`}<br />
+          {`<my-widget project-id="${params.projectId}"></my-widget>`}<br />
           {`<script src="${process.env.WIDGET_URL}/widget.umd.js"></script>`}
         </code>
       </div>
