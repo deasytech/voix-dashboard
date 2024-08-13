@@ -40,7 +40,14 @@ function LandingHero() {
           </div>
         </div>
         <div className="flex-1">
-          <Image src="/demo.gif" alt="Hero" layout="responsive" width="175" height="175" unoptimized={true} />
+          <Image
+            src="/demo.gif"
+            alt="Hero"
+            width={175}
+            height={175}
+            unoptimized={true}
+            style={{ objectFit: "cover", width: "100%", height: "auto" }}
+          />
         </div>
       </div>
     </section>
