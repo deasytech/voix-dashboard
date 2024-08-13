@@ -20,7 +20,7 @@ const Page = async () => {
         <h1 className="text-3xl font-bold my-4">Project List</h1>
         {subscribed !== true && userProjects.length > maxFreeProjects ? null : <NewProject />}
       </div>
-      {!subscribed ? <ProjectList projects={userProjects} /> : null}
+      <ProjectList projects={userProjects} />
     </div>
   )
 }
